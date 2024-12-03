@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "beautycolor"
+version = "0.1.0"
+description = "BeautyColor是一个开源的化妆品色彩标准化项目，旨在解决美妆行业色彩描述的混乱问题。"
+authors = ["lbb <lbbagi@yeah.net>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
